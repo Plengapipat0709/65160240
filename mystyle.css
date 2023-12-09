@@ -4,11 +4,31 @@
     color: rgb(255, 255, 255);
     background-color:rgb(88, 90, 88);
     text-align: center;
-    border: 5px dashed rgb(0,255,0);
+    text-indent: 0%;
+    border: 5px dashed rgb(51, 255, 0);
     padding-top: 10px;
     margin: 50px 25px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.gifer.com/3YE.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
 
 .box:hover{
     background-color:rgb(118, 11, 82);
+    box-shadow:25px 25px 20px#111111;
+    background-image: url(https://images-ext-1.discordapp.net/external/Ub4LANwfO-7iDqnBdh3u7Idzgt5veYR2swlLs4Pg2pk/https/media.tenor.com/n2qprcUg0TMAAAAC/kid.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: url(https://i.gifer.com/1OYf.gif);
+}
+h1{
+    color: whitesmoke;
 }

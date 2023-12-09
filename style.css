@@ -1,15 +1,11 @@
 .content{
-    background-image: url(https://free4kwallpapers.com/uploads/originals/2020/11/15/sunset-vector-wallpaper.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 40px;
 }
-.Heads{
-    background-color: black;
-}
 body{
-    background-color: black;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2020/11/15/sunset-vector-wallpaper.jpg);
 }
 td{
     color: white;

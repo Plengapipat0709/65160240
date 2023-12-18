@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>SE-CAMP</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <center>
-        <body>
-            <form>
-                <div class="Heads">
-                    <br>
-                    <h1>WORKSHOP #HTML-FORM</h1>
+
+<head>
+    <title>SE-CAMP</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<center>
+
+    <body>
+        <form>
+            <div class="Heads">
                 <br>
-                </div>
+                <h1>WORKSHOP #HTML-FORM</h1>
+                <br>
+            </div>
+            
                 <div class="content">
+                    
                     <table>
                         <br>
                         <tr>
-                            <td>ชื่อ</td>
-                            <td><input type="text"/></td>
-                        </tr>
-                        <tr>
-                            <td>นามสกุล</td>
+                            <td class="t">ชื่อ</td>
                             <td><input type="text" /></td>
                         </tr>
                         <tr>
-                            <td>วัน/เดือน/ปีเกิด</td>
+                            <td class="x">นามสกุล</td>
+                            <td><input type="text" /></td>
+                        </tr>
+                        <tr>
+                            <td style="color: blue;">วัน/เดือน/ปีเกิด</td>
                             <td>
                                 <input type="date" />
                             </td>
@@ -33,11 +37,13 @@
                         <tr>
                             <td>อายุ</td>
                             <td>
-                                <input type="text" /></td>
+                                <input type="text" />
+                            </td>
                         </tr>
                         <tr>
                             <td><label for="sex">เพศ</td>
-                            <td><input type="radio" value="male" name="sex"> ชาย<input type="radio" value="female" name="sex"> หญิง </td>
+                            <td><input type="radio" value="male" name="sex"> ชาย<input type="radio" value="female"
+                                    name="sex"> หญิง </td>
                         </tr>
                         <tr>
                             <td>รูป</td>
@@ -45,8 +51,7 @@
                         </tr>
                         <tr>
                             <td>ที่อยู่</td>
-                            <td><textarea rows="4" 
-                            placeholder="กรุณาป้อนข้อมูล"></textarea>
+                            <td><textarea rows="4" placeholder="กรุณาป้อนข้อมูล"></textarea>
                             </td>
                         </tr>
                         <tr>
@@ -55,10 +60,7 @@
                             </td>
                             <td>
                                 <select>
-                                    <option 
-                                    value=""
-                                    disabled 
-                                    selected>-</option>
+                                    <option value="" disabled selected>-</option>
                                     <option>แดง</option>
                                     <option>ส้ม</option>
                                     <option>เหลือง</option>
@@ -70,28 +72,30 @@
                         </tr>
                         <tr>
                             <td><label for="song">แนวเพลงที่ชอบ</td>
-                            <td><input type="radio" value="male" name="a">HipHop<input type="radio" value="female" name="a">Rap<input type="radio" value="male" name="a">เพื่อชีวิต</td>
+                            <td><input type="radio" value="male" name="a">HipHop<input type="radio" value="female"
+                                    name="a">Rap<input type="radio" value="male" name="a">เพื่อชีวิต</td>
                         </tr>
                         <tr>
                             <td>
                                 <br>
-                                <input type="checkbox"
-                                      name="my_checkbox">ยินยอมให้เก็บข้อมูล
+                                <input type="checkbox" name="my_checkbox">ยินยอมให้เก็บข้อมูล
                                 <br>
                             </td>
                         </tr>
                         <tr>
-                    <td>
-                        <input type="reset" 
-                                value="Reset">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                        <input type="submit" value="Submit">
-                    </td>
-                </tr>
-                <br>
+                            <td>
+                                <input type="reset" value="Reset">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                <input type="submit" value="Submit">
+                            </td>
+                        </tr>
+                        <br>
                     </table>
+                    <br>
                 </div>
-                <br><br><br>
-            </form>
-        </body>
-    </center>
+            
+            <br><br><br>
+        </form>
+    </body>
+</center>
+
 </html>

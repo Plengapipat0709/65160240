@@ -3,6 +3,7 @@
 </head>
 
 <body>
+    <center>
     <?php $multi_x = 2; ?>
     <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
     <style>
@@ -25,5 +26,6 @@
     }
     ?>       
     </div>
+    </center>
 </body>
 </html>

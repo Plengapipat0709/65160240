@@ -17,13 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/my-route',function(){
-    //return view('myroute');
-    echo "<h1> Welcome to my world </h1>";
-    $data = ['val_a' => 'Hellow World'];
-    $data['val_b'] = " Laravel";
-    return view('myfolder.mypage',$data);
+    return view('myfolder.mypage');
 });
 Route::post('/my-route',function(Request $req){
     $data['myinput'] = $req->input('myinput');
     return view('myroute',$data);
+});
+Route::post('/my-page', function(Request $req) {
+    $req->validate([
+        'back' => 'required|string',
+    ]);
+    $data['back'] = $req->input('back');
+    return view('back', $data);
 });

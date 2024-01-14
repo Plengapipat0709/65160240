@@ -167,9 +167,9 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="index3.html" class="brand-link">
-                <img src="{{ url('assets/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo"
+                <img src="{{ url('https://cdn.discordapp.com/attachments/736588843330830356/1196128871989391403/324934133_869955994253773_8845911537766615140_n.png?ex=65b680d2&is=65a40bd2&hm=4096c7bd01a8938f563658e367a9241c29577dced2089d89428ef675788a4a11&') }}" alt="AdminLTE Logo"
                     class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">AdminLTE 3</span>
+                <span class="brand-text font-weight-light">SE_CAMP</span>
             </a>
 
             <!-- Sidebar -->
@@ -177,11 +177,11 @@
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="{{ url('assets/dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2"
+                        <img src="{{ url('https://cdn.discordapp.com/attachments/736588843330830356/1196127200055930951/DSC_0599_-_240x280.jpeg?ex=65b67f43&is=65a40a43&hm=78903e4e30225f7280019914236576974743c74cb16e838e018a0e658d3b243d&') }}" class="img-circle elevation-2"
                             alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alexander Pierce</a>
+                        <a href="#" class="d-block">Apipat Tosaporn</a>
                     </div>
                 </div>
 

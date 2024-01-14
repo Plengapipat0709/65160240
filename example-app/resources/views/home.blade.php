@@ -8,15 +8,15 @@
     </div>
     <div class="card-body">
         <div class="form-group">
-            <label for="inputFirst_Name">First Name</label>
+            <label for="inputFirst_Name">First Name :</label>
             <input type="FName" class="form-control" id="inputFName " placeholder="Enter Name">
         </div>
         <div class="form-group">
-            <label for="inputLast_Name">Last Name</label>
+            <label for="inputLast_Name">Last Name :</label>
             <input type="LName" class="form-control" id="inputLName" placeholder="Enter LastName">
         </div>
         <div class="form-group">
-            <label>Date BirthDay:</label>
+            <label>Date BirthDay :</label>
             <div class="input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
@@ -42,11 +42,11 @@
             </div>
         </div>
         <div class="form-group">
-            <label for="inputemail">Email</label>
+            <label for="inputemail">Email :</label>
             <input type="emauk" class="form-control" id="inputemail" placeholder="Enter Email">
         </div>
         <div class="form-group">
-            <label for="inputFile">Picture</label>
+            <label for="inputFile">Picture :</label>
             <div class="input-group">
                 <div class="custom-file">
                     <input type="file" class="custom-file-input" id="inputFile">
@@ -55,11 +55,11 @@
             </div>
         </div>
         <div class="form-group">
-            <label>Address</label>
-            <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+            <label>Address :</label>
+            <textarea class="form-control" rows="3" placeholder="Enter"></textarea>
         </div>
         <div class="form-group">
-            <label>Color Favorite</label>
+            <label>Color Favorite :</label>
             <select class="form-control select2" style="width: 100%;">
                 <option selected="selected">Choose Color</option>
                 <option>Red</option>
@@ -74,7 +74,7 @@
             </select>
         </div>
         <div class="form-group">
-            <div> <label>Favorite Type Music</label>
+            <div> <label>Favorite Type Music :</label>
                 <div>
                     <input id="radio_a" type="radio" name="same_radio" />
                     <label for="radio_a"><b class="CO">POP</b></label>

@@ -177,7 +177,7 @@
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="{{ url('https://cdn.discordapp.com/attachments/736588843330830356/1196127200055930951/DSC_0599_-_240x280.jpeg?ex=65b67f43&is=65a40a43&hm=78903e4e30225f7280019914236576974743c74cb16e838e018a0e658d3b243d&') }}" class="img-circle elevation-2"
+                        <img src="{{ url('https://media.discordapp.net/attachments/736588843330830356/1196401141831974933/DSC_0599_-_240x280.jpeg?ex=65b77e64&is=65a50964&hm=e11af107152c68af2127da0d690ef3ef2ca7d5bf4ee290414af2c8fab3750d7a&=&format=webp&width=300&height=350') }}" class="img-circle elevation-2"
                             alt="User Image">
                     </div>
                     <div class="info">

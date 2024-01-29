@@ -52,6 +52,7 @@ class C_titles extends Controller
     public function show(string $id)
     {
         //
+        
     }
 
     /**

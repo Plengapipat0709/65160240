@@ -100,3 +100,4 @@ class C_titles extends Controller
         return Redirect::to('/titles');
     }
 }
+        

@@ -72,7 +72,7 @@
         }
 
         #my_number {
-            border: 1px solid whitesmoke;
+            border: 1px  whitesmoke;
             padding: 8px;
             border-radius: 5px;
         }
